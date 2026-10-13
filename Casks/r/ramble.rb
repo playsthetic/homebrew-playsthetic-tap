@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "ramble" do
-  version "1.2.0"
-  sha256 "8c2908809632ac85de79a61aa715b005cdc11a5ce8a1a76f73a389a73ff094ab"
+  version "1.3.0"
+  sha256 "400241ebad0dcf7400230b23f82cab56e81b74793b8a080759a63a9d871b3f04"
 
   url "https://api.playsthetic.com/v1/ramble/download/#{version}/aarch64-apple-darwin"
   name "Ramble"

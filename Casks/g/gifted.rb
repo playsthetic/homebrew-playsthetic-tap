@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "gifted" do
-  version "0.5.0"
-  sha256 "4f6e12bf6226062f559a300e0bf958a82512e03b6973713abc5f4ee8849e8922"
+  version "0.6.0"
+  sha256 "33866903c21eb2ae0212097601d376f55bb7a67ad6057bd58710cfb8190e5dbc"
 
   url "https://api.playsthetic.com/v1/gifted/download/#{version}/aarch64-apple-darwin"
   name "Gifted"

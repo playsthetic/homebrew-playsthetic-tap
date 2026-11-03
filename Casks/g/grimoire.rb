@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "grimoire" do
-  version "0.5.0"
-  sha256 "ec899e837d91e099268d20ef5150f378547f862cd5ee66e7c1fb5bf77cddfa59"
+  version "0.6.0"
+  sha256 "c3e26d79d4e9fbe805b0cb1209290e407fcc2e5c6fa9c37c0f559fcea9be1cce"
 
   url "https://api.playsthetic.com/v1/grimoire/download/#{version}/aarch64-apple-darwin"
   name "Grimoire"

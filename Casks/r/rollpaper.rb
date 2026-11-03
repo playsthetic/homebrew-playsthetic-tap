@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "rollpaper" do
-  version "1.5.0"
-  sha256 "6d060fc52769983195d6fe256cae08ac07279ee942d6ac113c59f1c82c61d278"
+  version "1.6.0"
+  sha256 "767146d6a2d0de9b3cffb18c9bab71d05c883dbf81cd40c6867c0360db70aff2"
 
   url "https://api.playsthetic.com/v1/rollpaper/download/#{version}/aarch64-apple-darwin"
   name "Rollpaper"

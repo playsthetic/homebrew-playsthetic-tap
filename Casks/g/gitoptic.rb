@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "gitoptic" do
-  version "0.7.0"
-  sha256 "ed9e809aad86d152d297dc5042a04f023cfe830d3174137acacb066c2031cbfb"
+  version "0.8.0"
+  sha256 "c337404abc354116f89a36d613fcf778f72778b75616f62f7b9278a90be83068"
 
   url "https://api.playsthetic.com/v1/gitoptic/download/#{version}/aarch64-apple-darwin"
   name "Gitoptic"

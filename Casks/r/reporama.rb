@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "reporama" do
-  version "0.10.0"
-  sha256 "1c53cb3058fc61b3bb4a4c81cbb2d756924128abe2d5c06b93501e6ef8e895ce"
+  version "0.11.0"
+  sha256 "94636cc05bcce904d622c34df6da55f605e9c408646eea870fd7919946d7a37b"
 
   url "https://api.playsthetic.com/v1/reporama/download/#{version}/aarch64-apple-darwin"
   name "Reporama"

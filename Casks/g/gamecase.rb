@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "gamecase" do
-  version "1.1.0"
-  sha256 "b90afeaa2469dc352df7696d6b880ab53cfce3811a17dcb70ab8761c72c96fa8"
+  version "1.2.0"
+  sha256 "4380f2bae2ae6ed7ddafedfd6d2e42a8038fce3bc61df920776052c2b87729e0"
 
   url "https://api.playsthetic.com/v1/gamecase/download/#{version}/aarch64-apple-darwin"
   name "Gamecase"

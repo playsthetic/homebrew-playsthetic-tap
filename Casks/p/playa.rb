@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "playa" do
-  version "1.7.0"
-  sha256 "e41beb7e789a3c1ee70fe7feb9cb6cc2f86a6bc50b7ec2e3a30864b59285b6b3"
+  version "1.8.0"
+  sha256 "757db078cfce81acd1a9e0bd4001cce3526e16df87ad6792c99455f676e3ad50"
 
   url "https://api.playsthetic.com/v1/playa/download/#{version}/aarch64-apple-darwin"
   name "Playa"

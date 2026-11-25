@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "gifted" do
-  version "0.7.0"
-  sha256 "f5812d58d0d7f0034b275c0ea0dddda05c6de3cb10673c09940299e070e40ecc"
+  version "0.8.0"
+  sha256 "97a3a81709e0be78765cafbe4b89e3e1a19c54471fa5299608080da42d8aa901"
 
   url "https://api.playsthetic.com/v1/gifted/download/#{version}/aarch64-apple-darwin"
   name "Gifted"
@@ -19,8 +19,6 @@ cask "gifted" do
   depends_on macos: :ventura
 
   app "Gifted.app"
-
-  uninstall quit: "com.playsthetic.gifted"
 
   zap trash: [
     "~/Library/Application Support/com.playsthetic.gifted",

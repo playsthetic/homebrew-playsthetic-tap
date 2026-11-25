@@ -20,6 +20,8 @@ cask "gamecase" do
 
   app "Gamecase.app"
 
+  uninstall quit: "com.playsthetic.gamecase"
+
   zap trash: [
     "~/Library/Application Support/Gamecase",
     "~/Library/Caches/Gamecase",

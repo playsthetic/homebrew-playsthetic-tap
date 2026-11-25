@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "peel" do
-  version "1.8.0"
-  sha256 "3d937a4e095b492374671c1520fbc1557cfc765d5878667d9921556e93a378fd"
+  version "1.9.0"
+  sha256 "4250e2d290b4986284ebeeabac041977b80699e66954ff9bbf8453a383a62268"
 
   url "https://api.playsthetic.com/v1/peel/download/#{version}/aarch64-apple-darwin"
   name "Peel"

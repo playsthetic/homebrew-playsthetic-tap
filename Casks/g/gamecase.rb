@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "gamecase" do
-  version "1.1.0"
-  sha256 "b90afeaa2469dc352df7696d6b880ab53cfce3811a17dcb70ab8761c72c96fa8"
+  version "1.3.0"
+  sha256 "c0f3204729717bb20b4ed86b0d7a0e81ee5d182948e4fad4f5431316b004ab4b"
 
   url "https://api.playsthetic.com/v1/gamecase/download/#{version}/aarch64-apple-darwin"
   name "Gamecase"
@@ -16,9 +16,11 @@ cask "gamecase" do
     end
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "Gamecase.app"
+
+  uninstall quit: "com.playsthetic.gamecase"
 
   zap trash: [
     "~/Library/Application Support/Gamecase",

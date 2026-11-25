@@ -20,6 +20,8 @@ cask "gifted" do
 
   app "Gifted.app"
 
+  uninstall quit: "com.playsthetic.gifted"
+
   zap trash: [
     "~/Library/Application Support/com.playsthetic.gifted",
     "~/Library/Caches/com.playsthetic.gifted",

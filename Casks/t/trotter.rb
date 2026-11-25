@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "trotter" do
-  version "0.6.0"
-  sha256 "98ca7a03c55b26cf13ea0fa801e69b21449c8235b0ea87faecc99721229451a9"
+  version "0.8.0"
+  sha256 "9a92de5e833feb7031d5da19252da6d07d2ef97d99bb3d0121581736fb72e4ce"
 
   url "https://api.playsthetic.com/v1/trotter/download/#{version}/aarch64-apple-darwin"
   name "Trotter"
@@ -16,7 +16,7 @@ cask "trotter" do
     end
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "Trotter.app"
 

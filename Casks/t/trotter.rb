@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "trotter" do
-  version "0.8.0"
-  sha256 "9a92de5e833feb7031d5da19252da6d07d2ef97d99bb3d0121581736fb72e4ce"
+  version "0.9.0"
+  sha256 "ddd94e23ee7481a754a07b9e8efffefc895d139cd179994ebed2340820eea044"
 
   url "https://api.playsthetic.com/v1/trotter/download/#{version}/aarch64-apple-darwin"
   name "Trotter"

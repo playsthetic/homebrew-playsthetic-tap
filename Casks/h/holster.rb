@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "holster" do
-  version "0.1.0"
-  sha256 "d7334e9b88dddf2f68c5d324ca9387364b7694557aaa10959fc25828fa7c4bbb"
+  version "0.2.0"
+  sha256 "e9055ae26f4f87f954ed26858388a0f08a9d879f385063b2023129902edd77b2"
 
   url "https://api.playsthetic.com/v1/holster/download/#{version}/aarch64-apple-darwin"
   name "Holster"
